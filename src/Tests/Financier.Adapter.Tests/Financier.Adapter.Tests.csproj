@@ -1,20 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-      <TargetFramework>net6.0-windows</TargetFramework>
-      <IsPackable>false</IsPackable>
-      <DebugType>full</DebugType>
-      <AssemblyName>Financier.Adapter.Tests</AssemblyName>
-      <RootNamespace>Financier.Adapter.Tests</RootNamespace>
-      <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
-      <IsTestProject>true</IsTestProject>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <DebugType>full</DebugType>
+    <AssemblyName>Financier.Adapter.Tests</AssemblyName>
+    <RootNamespace>Financier.Adapter.Tests</RootNamespace>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+    <IsTestProject>true</IsTestProject>
   </PropertyGroup>
-
   <ItemGroup>
     <None Remove="Assets\min" />
     <None Remove="Assets\min.backup" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Include="Assets\min">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -23,27 +20,24 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="AutoFixture" Version="4.17.0" />
-    <PackageReference Include="AutoFixture.AutoMoq" Version="4.17.0" />
-    <PackageReference Include="AutoFixture.Xunit2" Version="4.17.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
-    <PackageReference Include="Moq" Version="4.18.2" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+    <PackageReference Include="AutoFixture" />
+    <PackageReference Include="AutoFixture.AutoMoq" />
+    <PackageReference Include="AutoFixture.Xunit2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Moq" />
+    <PackageReference Include="StyleCop.Analyzers">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="xunit" Version="2.4.2" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\Financier.Adapter\Financier.Adapter.csproj" />
     <ProjectReference Include="..\Financier.Tests.Common\Financier.Tests.Common.csproj" />
   </ItemGroup>
-
 </Project>

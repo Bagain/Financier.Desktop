@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using CsvHelper;
 using Financier.Desktop.Wizards;
 
+using System.Threading; // For CancellationToken
+// Remove any other using System.Linq.AsyncEnumerable or similar
+
 namespace Financier.Desktop.Helpers
 {
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
@@ -21,7 +24,11 @@ namespace Financier.Desktop.Helpers
                 using StreamReader streamReader = new StreamReader(file, Encoding.UTF8);
                 using (var csv = new CsvReader(streamReader, CultureInfo.InvariantCulture))
                 {
-                    return await csv.GetRecordsAsync<BankTransaction>().ToListAsync();
+                    // Use a local alias to resolve ambiguity between AsyncEnumerable types
+                    return await System.Linq.AsyncEnumerable.ToListAsync(
+                        csv.GetRecordsAsync<BankTransaction>(),
+                        CancellationToken.None
+                    );
                 }
             }
             return Array.Empty<BankTransaction>();

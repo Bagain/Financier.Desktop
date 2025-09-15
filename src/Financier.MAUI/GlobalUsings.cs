@@ -1,0 +1,15 @@
+﻿global using CommunityToolkit.Maui;
+global using Financier.MAUI.Models;
+global using Financier.MAUI.Services;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using Financier.MAUI.ViewModels;
+global using Financier.MAUI.Views;
+global using System.Collections.ObjectModel;
+global using System.ComponentModel;
+global using System.Diagnostics;
+global using System.Globalization;
+global using System.Runtime.CompilerServices;
+global using System.Text.Json;
+global using System.Threading.Tasks;
+global using Microsoft.Extensions.Logging;

@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using CsvHelper;
 using Docnet.Core.Models;
@@ -40,10 +41,13 @@ namespace Financier.Desktop.Helpers
                 {
                     using (var csv = new CsvReader(streamReader, CultureInfo.InvariantCulture))
                     {
-                        return await csv.GetRecordsAsync<BankTransaction>().ToListAsync();
+                        return await System.Linq.AsyncEnumerable.ToListAsync(
+                            csv.GetRecordsAsync<BankTransaction>(),
+                            CancellationToken.None
+                        );
                     }
                 }
-            }
+            }               
             return Array.Empty<BankTransaction>();
         }
 

@@ -1,16 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
   <PropertyGroup>
     <!-- Exclude the project from analysis -->
     <SonarQubeExclude>true</SonarQubeExclude>
   </PropertyGroup>
-
   <ItemGroup>
     <Resource Include="Images\ic_menu_report_both.png" />
     <Resource Include="Images\ic_menu_report_expense.png" />
@@ -21,21 +18,18 @@
     <Resource Include="Images\ic_tab_reports_line_unselected.png" />
     <Resource Include="Images\ic_tab_reports_unselected.png" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Emoji.Wpf" Version="0.3.4" />
-    <PackageReference Include="OxyPlot.Wpf" Version="2.1.0" />
-    <PackageReference Include="Prism.Core" Version="8.1.97" />
-    <PackageReference Include="DotNetProjects.Extended.Wpf.Toolkit" Version="5.0.103" />
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.49.0.57237">
+    <PackageReference Include="Emoji.Wpf" />
+    <PackageReference Include="OxyPlot.Wpf" />
+    <PackageReference Include="Prism.Core" />
+    <PackageReference Include="DotNetProjects.Extended.Wpf.Toolkit" />
+    <PackageReference Include="SonarAnalyzer.CSharp">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Financier.Common\Financier.Common.csproj" />
     <ProjectReference Include="..\Financier.DataAccess\Financier.DataAccess.csproj" />
   </ItemGroup>
-
 </Project>

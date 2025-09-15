@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+	x:Class="Financier.MAUI.AppShell"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:Financier.MAUI"
+	xmlns:views="clr-namespace:Financier.MAUI.Views"
+	Title="Financier.MAUI">
+
+	<ShellContent
+		Shell.NavBarIsVisible="true"
+		Title="Main"
+		Icon="iconblank.png"
+		ContentTemplate="{DataTemplate views:MainPage}"
+		Route="MainPage" />
+	<ShellContent
+		Shell.NavBarIsVisible="true"
+		Title="ListDetail"
+		Icon="iconlistdetail.png"
+		ContentTemplate="{DataTemplate views:ListDetailPage}"
+		Route="ListDetailPage" />
+</Shell>

@@ -1,11 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <DebugType>full</DebugType>
   </PropertyGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="DataBase\Scripts\alter\20090723_0035_initial_data.sql" />
     <EmbeddedResource Include="DataBase\Scripts\alter\20090830_1754_add_is_default.sql" />
@@ -73,7 +71,7 @@
     <EmbeddedResource Include="DataBase\Scripts\alter\20180301_0101_added_order_column_to_smstemplates.sql" />
     <EmbeddedResource Include="DataBase\Scripts\alter\20180301_0202_add_sort_order_to_all_entities.sql" />
     <EmbeddedResource Include="DataBase\Scripts\alter\20190209_alter_entities_add_is_active.sql" />
-    <EmbeddedResource Include="DataBase\Scripts\alter\20220901_1220_add_lastaccounttransactionid.sql" />    
+    <EmbeddedResource Include="DataBase\Scripts\alter\20220901_1220_add_lastaccounttransactionid.sql" />
     <EmbeddedResource Include="DataBase\Scripts\create\account.sql" />
     <EmbeddedResource Include="DataBase\Scripts\create\attributes.sql" />
     <EmbeddedResource Include="DataBase\Scripts\create\budget.sql" />
@@ -101,13 +99,11 @@
     <EmbeddedResource Include="DataBase\Scripts\view\081[v_currency_exchange_rate].sql" />
     <EmbeddedResource Include="DataBase\Scripts\view\080[v_transaction_attributes].sql" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.6" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-    <PackageReference Include="NLog" Version="5.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="NLog" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Update="DataBase\Scripts\SQL_alter_files.Designer.cs">
       <DependentUpon>SQL_alter_files.resx</DependentUpon>
@@ -125,7 +121,6 @@
       <AutoGen>True</AutoGen>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Update="DataBase\Scripts\SQL_alter_files.resx">
       <LastGenOutput>SQL_alter_files.Designer.cs</LastGenOutput>
@@ -144,8 +139,8 @@
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
       <_Parameter1>Financier.DataAccess.Tests</_Parameter1>
     </AssemblyAttribute>
-      <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
-        <_Parameter1>Financier.Desktop.Tests</_Parameter1>
-      </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>Financier.Desktop.Tests</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 </Project>
