@@ -1,0 +1,373 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net11.0",
+    "targetDisplayName": ".NETCoreApp,Version=v11.0"
+  },
+  "analysisStartTime": "2026-07-08T09:21:49.0452044Z",
+  "analysisEndTime": "2026-07-08T09:21:52.1493176Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 8,
+      "issues": 2,
+      "incidents": 3,
+      "effort": 3
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 1,
+        "Optional": 0,
+        "Potential": 2,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 2,
+        "Project": 1
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "src\\Financier.Adapter\\Financier.Adapter.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "Financier.Adapter",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net11.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 12,
+        "numberOfCodeFiles": 12,
+        "linesTotal": 532,
+        "linesOfCode": 532,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    },
+    {
+      "path": "src\\Financier.Common\\Financier.Common.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "Financier.Common",
+        "projectKind": "Wpf",
+        "frameworks": [
+          "net11.0-windows"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 47,
+        "numberOfCodeFiles": 47,
+        "linesTotal": 1673,
+        "linesOfCode": 1673,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    },
+    {
+      "path": "src\\Financier.DataAccess\\Financier.DataAccess.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "Financier.DataAccess",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net11.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 135,
+        "numberOfCodeFiles": 39,
+        "linesTotal": 4581,
+        "linesOfCode": 3127,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    },
+    {
+      "path": "src\\Financier.Desktop\\Financier.Desktop.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "Financier.Desktop",
+        "projectKind": "Wpf",
+        "frameworks": [
+          "net11.0-windows"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 74,
+        "numberOfCodeFiles": 71,
+        "linesTotal": 7199,
+        "linesOfCode": 4464,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    },
+    {
+      "path": "src\\Tests\\Financier.Desktop.Tests\\Financier.Desktop.Tests.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "Financier.Desktop.Tests",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net11.0-windows7.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 19,
+        "numberOfCodeFiles": 11,
+        "linesTotal": 11326,
+        "linesOfCode": 2495,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    },
+    {
+      "path": "src\\Financier.MAUI\\Financier.MAUI.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Financier.MAUI",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net10.0-android",
+          "net10.0-ios",
+          "net10.0-maccatalyst",
+          "net10.0-windows10.0.19041.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 20,
+        "numberOfCodeFiles": 20,
+        "linesTotal": 318,
+        "linesOfCode": 318,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "1bbe437e-9cc4-4305-b352-912772dcac81",
+          "ruleId": "NuGet.0002",
+          "projectPath": "src\\Financier.MAUI\\Financier.MAUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Sqlite, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Sqlite, and replace with new package Microsoft.EntityFrameworkCore.Sqlite 10.0.9",
+              "protected": "Microsoft.EntityFrameworkCore.Sqlite, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Sqlite, and replace with new package Microsoft.EntityFrameworkCore.Sqlite 10.0.9"
+            },
+            "kind": "File",
+            "path": "src\\Financier.MAUI\\Financier.MAUI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Sqlite, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Sqlite, and replace with new package Microsoft.EntityFrameworkCore.Sqlite 10.0.9",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Sqlite, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.EntityFrameworkCore.Sqlite, and replace with new package Microsoft.EntityFrameworkCore.Sqlite 10.0.9",
+            "label": "Microsoft.EntityFrameworkCore.Sqlite 10.0.3",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Sqlite",
+              "PackageVersion": "10.0.3",
+              "PackageNewVersion": "10.0.9",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "2c5c68bb-28ac-4ca9-b02f-7f99fcdabc1d",
+          "ruleId": "NuGet.0002",
+          "projectPath": "src\\Financier.MAUI\\Financier.MAUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.Logging.Debug, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging.Debug, and replace with new package Microsoft.Extensions.Logging.Debug 10.0.9",
+              "protected": "Microsoft.Extensions.Logging.Debug, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging.Debug, and replace with new package Microsoft.Extensions.Logging.Debug 10.0.9"
+            },
+            "kind": "File",
+            "path": "src\\Financier.MAUI\\Financier.MAUI.csproj",
+            "snippet": "Microsoft.Extensions.Logging.Debug, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging.Debug, and replace with new package Microsoft.Extensions.Logging.Debug 10.0.9",
+            "protectedSnippet": "Microsoft.Extensions.Logging.Debug, 10.0.3\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging.Debug, and replace with new package Microsoft.Extensions.Logging.Debug 10.0.9",
+            "label": "Microsoft.Extensions.Logging.Debug 10.0.3",
+            "properties": {
+              "PackageId": "Microsoft.Extensions.Logging.Debug",
+              "PackageVersion": "10.0.3",
+              "PackageNewVersion": "10.0.9",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7062a0d0-f05a-48e2-b9da-833426865fac",
+          "ruleId": "Project.0002",
+          "projectPath": "src\\Financier.MAUI\\Financier.MAUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0\nRecommended target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0;net11.0-windows",
+              "protected": "Current target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0\nRecommended target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0;net11.0-windows"
+            },
+            "kind": "File",
+            "path": "src\\Financier.MAUI\\Financier.MAUI.csproj",
+            "snippet": "Current target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0\nRecommended target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0;net11.0-windows",
+            "protectedSnippet": "Current target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0\nRecommended target framework: net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0;net11.0-windows",
+            "properties": {
+              "CurrentTargetFramework": "net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0",
+              "RecommendedTargetFramework": "net10.0-android;net10.0-ios;net10.0-maccatalyst;net10.0-windows10.0.19041.0;net11.0-windows"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "src\\Financier.Reports\\Financier.Reports.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "Financier.Reports",
+        "projectKind": "Wpf",
+        "frameworks": [
+          "net11.0-windows"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 23,
+        "numberOfCodeFiles": 23,
+        "linesTotal": 1425,
+        "linesOfCode": 1425,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    },
+    {
+      "path": "src\\Tests\\Financier.Tests.Common\\Financier.Tests.Common.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "Financier.Tests.Common",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net11.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 6,
+        "numberOfCodeFiles": 6,
+        "linesTotal": 227,
+        "linesOfCode": 227,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
