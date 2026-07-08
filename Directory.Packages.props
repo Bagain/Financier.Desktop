@@ -12,15 +12,15 @@
     <PackageVersion Include="CommunityToolkit.Maui" Version="11.2.0" />
     <PackageVersion Include="CommunityToolkit.MVVM" Version="8.4.0" />
     <PackageVersion Include="CsvHelper" Version="33.1.0" />
-    <PackageVersion Include="DataGridExtensions" Version="2.6.0" />
+    <PackageVersion Include="DataGridExtensions" Version="2.5.15" />
     <PackageVersion Include="Docnet.Core" Version="2.7.0-alpha.1" />
     <PackageVersion Include="DotNetProjects.Extended.Wpf.Toolkit" Version="5.0.124" />
     <PackageVersion Include="Emoji.Wpf" Version="0.3.4" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.4" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.3" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageVersion Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
     <PackageVersion Include="Moq" Version="4.18.2" />
-    <PackageVersion Include="Newtonsoft.Json" Version="13.0.4-beta1" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageVersion Include="NLog" Version="6.0.2" />
     <PackageVersion Include="OxyPlot.Wpf" Version="2.1.0" />
     <PackageVersion Include="Plugin.Maui.Audio" Version="3.1.1" />
@@ -39,6 +39,6 @@
 	<PackageVersion Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 	<PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 	<PackageVersion Include="Microsoft.Maui.Essentials" Version="$(MauiVersion)" />
-	<PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="9.0.1" />
+	<PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="10.0.3" />
   </ItemGroup>
 </Project>
