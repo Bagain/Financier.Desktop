@@ -16,7 +16,7 @@
     <PackageVersion Include="Docnet.Core" Version="2.7.0-alpha.1" />
     <PackageVersion Include="DotNetProjects.Extended.Wpf.Toolkit" Version="5.0.124" />
     <PackageVersion Include="Emoji.Wpf" Version="0.3.4" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.3" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="11.0.0-preview.5.26302.115" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageVersion Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
     <PackageVersion Include="Moq" Version="4.18.2" />
@@ -39,6 +39,6 @@
 	<PackageVersion Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 	<PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 	<PackageVersion Include="Microsoft.Maui.Essentials" Version="$(MauiVersion)" />
-	<PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="10.0.3" />
+	<PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="11.0.0-preview.5.26302.115" />
   </ItemGroup>
 </Project>

@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net10.0-android;net10.0-ios;net10.0-maccatalyst</TargetFrameworks>
-    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net10.0-windows10.0.19041.0</TargetFrameworks>
+    <!-- Only include Windows target for local builds (mobile SDKs may not be installed) -->
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">net11.0-windows10.0.19041.0</TargetFrameworks>
+    <!-- Include all platforms for CI/CD if needed via property: /p:BuildAllMauiPlatforms=true -->
+    <TargetFrameworks Condition="'$(BuildAllMauiPlatforms)' == 'true'">net11.0-android;net11.0-ios;net11.0-maccatalyst;net11.0-windows10.0.19041.0</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <RootNamespace>Financier.MAUI</RootNamespace>
     <UseMaui>true</UseMaui>
