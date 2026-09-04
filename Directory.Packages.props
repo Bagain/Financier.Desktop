@@ -9,7 +9,7 @@
     <PackageVersion Include="AutoFixture" Version="4.17.0" />
     <PackageVersion Include="AutoFixture.AutoMoq" Version="4.17.0" />
     <PackageVersion Include="AutoFixture.Xunit2" Version="4.17.0" />
-    <PackageVersion Include="CommunityToolkit.Maui" Version="11.2.0" />
+    <PackageVersion Include="CommunityToolkit.Maui" Version="15.0.1" />
     <PackageVersion Include="CommunityToolkit.MVVM" Version="8.4.0" />
     <PackageVersion Include="CsvHelper" Version="33.1.0" />
     <PackageVersion Include="DataGridExtensions" Version="2.5.15" />
@@ -37,7 +37,7 @@
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.8.2" />
     <PackageVersion Include="coverlet.collector" Version="6.0.2" />
 	<PackageVersion Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-	<PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+	<PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="11.0.0-preview.5.26304.4" />
 	<PackageVersion Include="Microsoft.Maui.Essentials" Version="$(MauiVersion)" />
 	<PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="11.0.0-preview.7.26381.103" />
   </ItemGroup>
